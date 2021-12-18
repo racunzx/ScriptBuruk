@@ -88,10 +88,12 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
+wget -O mwg "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mwg.sh"
 wget -O add-wg "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-wg.sh"
 wget -O del-wg "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/del-wg.sh"
 wget -O cek-wg "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cek-wg.sh"
 wget -O renew-wg "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-wg.sh"
+chmod +x mwg
 chmod +x add-wg
 chmod +x del-wg
 chmod +x cek-wg
