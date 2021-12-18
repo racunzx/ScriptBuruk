@@ -29,38 +29,25 @@ read -p "    Please select an option :  "  v2ray
 echo -e "\e[0m"
 case $v2ray in
     1)
-    clear
-    addws
-    exit
+    add-ws
     ;;
     2)
-    clear
-    delws
-    exit
+    del-ws
     ;;
     3)
-    clear
-    renewws
-    exit
+    renew-ws
     ;;
     4)
-    clear
-    cekws
-    exit
+    cek-ws
     ;;
-    0)
-    clear
-    menu
-    exit
+    5)
+    certv2ray
     ;;
-    x)
-    sudo -i
-    exit
-    *)
-    echo -e "${red}Please enter an correct number${NC}"
+		*)
+    echo -e "Please enter an correct number"
     sleep 2
     clear
-    v2raay
+    mvmess
     exit
     ;;
 esac
