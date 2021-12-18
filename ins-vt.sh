@@ -492,8 +492,6 @@ systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
 wget -O mtrojan "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mtrojan.sh"
-wget -O mwg "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mwg.sh"
-wget -O mssr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mssr.sh"
 wget -O add-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-ws.sh"
 wget -O add-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-vless.sh"
 wget -O add-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-tr.sh"
@@ -508,8 +506,6 @@ wget -O renew-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VP
 wget -O renew-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-tr.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cert.sh"
 chmod +x mtrojan
-chmod +x mwg
-chmod +x mssr
 chmod +x add-ws
 chmod +x add-vless
 chmod +x add-tr
