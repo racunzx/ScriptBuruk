@@ -493,7 +493,7 @@ systemctl enable v2ray
 
 cd /usr/bin
 
-wget -O mssh.sh "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mssh.sh"
+wget -O mssh "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mssh.sh"
 wget -O mtrojan "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mtrojan.sh"
 wget -O mvless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mvless.sh"
 wget -O mvmess "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mvmess.sh"
