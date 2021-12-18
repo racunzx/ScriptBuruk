@@ -1,4 +1,4 @@
-# Premium_Script_VPS
+# ScriptBuruk
  selamat anda kena scam
 
  <h2 align="center">AutoScript Install VPN By Harithwyd <img src="https://img.shields.io/badge/Version-2.0.4-blue.svg"></h2>
@@ -17,7 +17,7 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 ## Installation
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
   ```
 

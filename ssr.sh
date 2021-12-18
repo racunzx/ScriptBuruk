@@ -122,7 +122,7 @@ if [[ ${OS} == "centos" ]]; then
 }
 Start_SSR(){
 	check_pid
-	wget -O /etc/init.d/ssrmu "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/ssrmu"
+	wget -O /etc/init.d/ssrmu "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/ssrmu"
 	/etc/init.d/ssrmu start
 }
 Install_SSR(){
@@ -138,10 +138,10 @@ Save_iptables
 Start_SSR
 }
 Install_SSR
-wget -O /usr/bin/mss-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mss-ssr.sh && chmod +x /usr/bin/mss-ssr
-wget -O /usr/bin/ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/ssrmu.sh && chmod +x /usr/bin/ssr
-wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
-wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
-wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
+wget -O /usr/bin/mss-ssr https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mss-ssr.sh && chmod +x /usr/bin/mss-ssr
+wget -O /usr/bin/ssr https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/ssrmu.sh && chmod +x /usr/bin/ssr
+wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
+wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
+wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
 touch /usr/local/shadowsocksr/akun.conf
 rm -f /root/ssr.sh

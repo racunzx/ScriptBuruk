@@ -16,7 +16,7 @@ date
 mkdir -p /etc/trojan/
 touch /etc/trojan/akun.conf
 # install v2ray
-wget https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quickstart/master/trojan-quickstart.sh)"
 mkdir /root/.acme.sh
@@ -493,23 +493,23 @@ systemctl enable v2ray
 
 cd /usr/bin
 
-wget -O mssh "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mssh.sh"
-wget -O mtrojan "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mtrojan.sh"
-wget -O mvless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mvless.sh"
-wget -O mvmess "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mvmess.sh"
-wget -O add-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-ws.sh"
-wget -O add-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-tr.sh"
-wget -O del-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/del-ws.sh"
-wget -O del-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/del-vless.sh"
-wget -O del-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/del-tr.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cek-ws.sh"
-wget -O cek-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cek-vless.sh"
-wget -O cek-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cek-tr.sh"
-wget -O renew-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-ws.sh"
-wget -O renew-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-vless.sh"
-wget -O renew-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-tr.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cert.sh"
+wget -O mssh "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mssh.sh"
+wget -O mtrojan "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mtrojan.sh"
+wget -O mvless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mvless.sh"
+wget -O mvmess "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mvmess.sh"
+wget -O add-ws "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-tr.sh"
+wget -O del-ws "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/del-ws.sh"
+wget -O del-vless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/del-vless.sh"
+wget -O del-tr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/del-tr.sh"
+wget -O cek-ws "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cek-ws.sh"
+wget -O cek-vless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cek-vless.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cek-tr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/renew-ws.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/renew-vless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/renew-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cert.sh"
 chmod +x mssh
 chmod +x mtrojan
 chmod +x mvless
