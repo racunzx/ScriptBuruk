@@ -490,8 +490,13 @@ systemctl restart trojan
 systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
+
 cd /usr/bin
+
+wget -O mssh.sh "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mssh.sh"
 wget -O mtrojan "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mtrojan.sh"
+wget -O mvless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mvless.sh"
+wget -O mvmess "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mvmess.sh"
 wget -O add-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-ws.sh"
 wget -O add-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-vless.sh"
 wget -O add-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-tr.sh"
@@ -505,7 +510,10 @@ wget -O renew-ws "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/m
 wget -O renew-vless "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-vless.sh"
 wget -O renew-tr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/renew-tr.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cert.sh"
+chmod +x mssh
 chmod +x mtrojan
+chmod +x mvless
+chmod +x mvmess
 chmod +x add-ws
 chmod +x add-vless
 chmod +x add-tr

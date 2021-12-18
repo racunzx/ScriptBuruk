@@ -50,41 +50,40 @@ echo -e  " $op ║ \e[032;1mIsp Name:\e[0m$bd $ISP"
 echo -e  " $op ║ \e[032;1mIp Vps:\e[0m$bd $IPVPS"
 echo -e  " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 echo -e  " $op ║ \e[032;1mTime:\e[0m$bd $WKT "
-echo -e  "  ╠═════════════════════════════════════════════════════════════════╣" | lolcat
+echo -e ""
+echo -e ""
+echo -e  "  ╔═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" |lolcat
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  " $bl ║"
 echo -e  " $nc ║      [ 1 ] =>  >>  >>  SSH & OpenVPN" | lolcat
 echo -e  " $nc ║      [ 2 ] =>  >>  >>  Panel Wireguard" | lolcat
-echo -e  " $nc ║      [ 3 ] =>  >>  >>  Panel L2TP" | lolcat
-echo -e  " $nc ║      [ 4 ] =>  >>  >>  Panel PPTP" | lolcat
-echo -e  " $nc ║      [ 5 ] =>  >>  >>  Panel SSTP" | lolcat
-echo -e  " $nc ║      [ 6 ] =>  >>  >>  Panel ShadowsocksR" | lolcat
-echo -e  " $nc ║      [ 7 ] =>  >>  >>  Panel Shadowsocks OBFS" | lolcat
-echo -e  " $nc ║      [ 8 ] =>  >>  >>  Panel VMESS" | lolcat
-echo -e  " $nc ║      [ 9 ] =>  >>  >>  Panel VLESS" | lolcat
-echo -e  " $nc ║      [ 10 ] =>  >>  >>  Panel Trojan" | lolcat
+echo -e  " $nc ║      [ 3 ] =>  >>  >>  Panel L2TP, PPTP & SSTP" | lolcat
+echo -e  " $nc ║      [ 4 ] =>  >>  >>  Panel SSR & SS" | lolcat
+echo -e  " $nc ║      [ 5 ] =>  >>  >>  Panel VMESS" | lolcat
+echo -e  " $nc ║      [ 6 ] =>  >>  >>  Panel VLESS" | lolcat
+echo -e  " $nc ║      [ 7 ] =>  >>  >>  Panel Trojan" | lolcat
 echo -e  " $bl ║ "
-echo -e  "  ╠═════════════════════════════════════════════════════════════════╣" | lolcat
+echo -e  "  ╠═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SYSTEM MENU ┃                        ║" | lolcat
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "  ║"
-echo -e  "  ║      [ 11 ] Add/Change Subdomain Host For VPS"
-echo -e  "  ║      [ 12 ] Add ID Cloudflare"
-echo -e  "  ║      [ 13 ] Cloudflare Add-Ons"
-echo -e  "  ║      [ 14 ] Pointing BUG"
-echo -e  "  ║      [ 15 ] Change Port Of Some Service"
-echo -e  "  ║      [ 16 ] Autobackup Data VPS"
-echo -e  "  ║      [ 17 ] Backup Data VPS"
-echo -e  "  ║      [ 18 ] Restore Data VPS"
-echo -e  "  ║      [ 19 ] Webmin Menu"
-echo -e  "  ║      [ 20 ] Check Usage of VPS Ram"
-echo -e  "  ║      [ 21 ] Reboot VPS"
-echo -e  "  ║      [ 22 ] Speedtest VPS"
-echo -e  "  ║      [ 23 ] Displaying System Information"
-echo -e  "  ║      [ 24 ] Info Script Auto Install"
+echo -e  "  ║      [ 8 ] Add/Change Subdomain Host For VPS"
+echo -e  "  ║      [ 9 ] Add ID Cloudflare"
+echo -e  "  ║      [ 10 ] Cloudflare Add-Ons"
+echo -e  "  ║      [ 11 ] Pointing BUG"
+echo -e  "  ║      [ 12 ] Change Port Of Some Service"
+echo -e  "  ║      [ 13 ] Autobackup Data VPS"
+echo -e  "  ║      [ 14 ] Backup Data VPS"
+echo -e  "  ║      [ 15 ] Restore Data VPS"
+echo -e  "  ║      [ 16 ] Webmin Menu"
+echo -e  "  ║      [ 17 ] Check Usage of VPS Ram"
+echo -e  "  ║      [ 18 ] Reboot VPS"
+echo -e  "  ║      [ 19 ] Speedtest VPS"
+echo -e  "  ║      [ 20 ] Displaying System Information"
+echo -e  "  ║      [ 21 ] Info Script"
 echo -e  "  ║"
-echo -e  "  ╠═════════════════════════════════════════════════════════════════╣\e[m" | lolcat
+echo -e  "  ╠═════════════════════════════════════════════════════════════════╗\e[m" | lolcat
 echo -e  "  ║ [0] Exit Menu                                                   ║\e[m" | lolcat
 echo -e  "  ╚═════════════════════════════════════════════════════════════════╝\e[m" | lolcat
 echo -e  ""
@@ -98,69 +97,60 @@ echo -e   ""
    mwg
    ;;
    3)
-   ml2tp
+   ml2ppss-tp
    ;;
    4)
-   mpptp
+   mss-ssr
    ;;
    5)
-   msstp
-   ;;
-   6)
-   mssr
-   ;;
-   7)
-   mss
-   ;;
-   8)
    mvmess
    ;;
-   9)
+   6)
    mvless
    ;;
-   10)
+   7)
    mtrojan
    ;;
-   11)
+   8)
    add-host
    ;;
-   12)
+   9)
    cff
    ;;
-   13)
+   10)
    cfd
    ;;
-   14)
+   11)
    cfh
    ;;
-   15)
+   12)
    change
    ;;
-   16)
+   13)
    autobackup
    ;;
-   17)
+   14)
    backup
    ;;
-   18)
+   15)
    restore
    ;;
-   19)
+   16)
    wbmn
    ;;
-   20)
+   17)
    ram
    ;;
-	 21)
+	 18)
    reboot
    ;;
-	 22)
+	 19)
    speedtest
    ;;
-	 23)
+	 20)
    info
    ;;
-	 24)
+	 21)
    about
    ;;
    0)

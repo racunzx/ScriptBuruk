@@ -138,6 +138,7 @@ Save_iptables
 Start_SSR
 }
 Install_SSR
+wget -O /usr/bin/mss-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mss-ssr.sh && chmod +x /usr/bin/mss-ssr
 wget -O /usr/bin/ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/ssrmu.sh && chmod +x /usr/bin/ssr
 wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
 wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/del-ssr.sh && chmod +x /usr/bin/del-ssr

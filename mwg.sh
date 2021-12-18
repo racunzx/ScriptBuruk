@@ -12,19 +12,19 @@ fi
 clear
 
 echo -e ""
-echo -e " ╠═══════════════════════════════════════════╣" | lolcat
-echo -e " ║                 WIREGUARD                 ║" | lolcat
-echo -e " ╠═══════════════════════════════════════════╣" | lolcat
+echo -e " ╔══════════════════════════════════════════════╗" | lolcat
+echo -e " ║                   WIREGUARD                  ║" | lolcat
+echo -e " ╠══════════════════════════════════════════════╝" | lolcat
 echo -e " ║" | lolcat
-echo -e " ║ [ 1 ] Create Wireguard Account"
-echo -e " ║ [ 2 ] Delete Wireguard Account"
-echo -e " ║ [ 3 ] Check User Login Wireguard"
-echo -e " ║ [ 4 ] Extend Wireguard Account Active Life"
-echo -e " ║ [ 5 ] Check Wireguard User Interface"
-echo -e  "  ║" | lolcat
-echo -e " ╠═══════════════════════════════════════════╣" | lolcat
-echo -e " ║  0]  RETURN  MENU                         ║"   | lolcat
-echo -e " ╠═══════════════════════════════════════════╣" | lolcat
+echo -e " ║  [ 1 ] Create Wireguard Account"
+echo -e " ║  [ 2 ] Delete Wireguard Account"
+echo -e " ║  [ 3 ] Check User Login Wireguard"
+echo -e " ║  [ 4 ] Extend Wireguard Account Active Life"
+echo -e " ║  [ 5 ] Check Wireguard User Interface"
+echo -e " ║" | lolcat
+echo -e " ╠══════════════════════════════════════════════╗" | lolcat
+echo -e " ║ - CTRL C to cancel                           ║"   | lolcat
+echo -e " ╚══════════════════════════════════════════════╝" | lolcat
 echo -e "\e[1;32m"
 read -p "     Please select an option :  "  wg
 echo -e "\e[0m"
@@ -43,9 +43,6 @@ case $wg in
     ;;
     5)
     wg-show
-    ;;
-    0)
-    menu
     ;;
     *)
     echo -e "Please enter an correct number"

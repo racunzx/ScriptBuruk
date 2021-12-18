@@ -241,7 +241,6 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 wget -O menu "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/menu.sh"
-wget -O mssr "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/mssr.sh"
 wget -O add-host "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/about.sh"
 wget -O usernew "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/usernew.sh"
@@ -277,7 +276,6 @@ wget -O cff "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/c
 wget -O cfh "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/cfh.sh"
 wget -O kernel-updt "https://raw.githubusercontent.com/XC0D3-X/Premium_Script_VPS/main/kernel-update.sh"
 chmod +x menu
-chmod +x mssr
 chmod +x add-host
 chmod +x usernew
 chmod +x trial

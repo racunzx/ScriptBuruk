@@ -12,18 +12,18 @@ fi
 clear
 
 echo -e ""
-echo -e  "  ╔═════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                 TROJAN                  ║" | lolcat
-echo -e  "  ╠═════════════════════════════════════════╝" | lolcat
+echo -e  "  ╔═══════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║                      TROJAN                   ║" | lolcat
+echo -e  "  ╠═══════════════════════════════════════════════╝" | lolcat
 echo -e  "  ║" | lolcat
 echo -e  "  ║  [ 1 ] Create Trojan Account"
 echo -e  "  ║  [ 2 ] Delete Trojan Account"
 echo -e  "  ║  [ 3 ] Extend Trojan Account Active Life"
 echo -e  "  ║  [ 4 ] Check User Login Trojan"
 echo -e  "  ║" | lolcat
-echo -e  "  ╠═════════════════════════════════════════╗" | lolcat
-echo -e  "  ║   [ 0 ] Menu                            ║" | lolcat
-echo -e  "  ╚═════════════════════════════════════════╝" | lolcat
+echo -e  "  ╠═══════════════════════════════════════════════╗" | lolcat
+echo -e  "  ║ - CTRL C to cancel                            ║" | lolcat
+echo -e  "  ╚═══════════════════════════════════════════════╝" | lolcat
 echo -e "\e[1;32m"
 read -p "     Please select an option :  "  trojan
 echo -e "\e[0m"
@@ -40,14 +40,11 @@ case $trojan in
       4)
       cek-tr
       ;;
-      0)
-      clear
-      menu
       *)
       echo -e "Please enter an correct number"
       sleep 2
       clear
-      mvmess
+      mtrojan
       exit
       ;;
   esac
