@@ -1,5 +1,5 @@
 # Premium_Script_VPS
- anda selamat kena scam
+ selamat anda kena scam
 
  <h2 align="center">AutoScript Install VPN By Harithwyd <img src="https://img.shields.io/badge/Version-2.0.4-blue.svg"></h2>
 
