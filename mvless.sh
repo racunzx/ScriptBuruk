@@ -59,10 +59,10 @@ case $vless in
       exit
       ;;
       *)
-      echo -e "${red}Please enter an correct number${NC}"
+      echo -e "Please enter an correct number"
       sleep 2
       clear
-      vleess
+      mvless
       exit
       ;;
    esac
