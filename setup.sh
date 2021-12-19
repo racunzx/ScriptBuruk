@@ -40,7 +40,6 @@ echo -e "${NC}   SCRIPT PERCUMA SELAMANYA BY @harithwyd    "
 echo ""
 echo -e "═══════════════════════════════════════════════════════════"
 sleep 4
-clear
 else
 clear
 echo ""
@@ -49,7 +48,7 @@ echo '             You Are Not Allowed To Use This Script!           '
 echo '    ---------------------------------------------------------- '
 echo '                         t.me/harithwyd                        '
 echo '    ═══════════════════════════════════════════════════════════'
-sleep 3
+sleep 4
 rm -rf setup.sh
 exit 0
 fi
