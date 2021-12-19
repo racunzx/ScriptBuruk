@@ -1,4 +1,23 @@
 #!/bin/bash
+echo ''
+clear
+echo ''
+echo '------------------------------------------------------------ '
+echo -e "\e[92m             ██╗  ██╗██╗  ██╗███████╗███████╗           "
+echo -e "\e[92m             ██║  ██║██║  ██║╚══███╔╝╚══███╔╝           "
+echo -e "\e[92m             ███████║███████║  ███╔╝   ███╔╝            "
+echo -e "\e[92m             ██╔══██║╚════██║ ███╔╝   ███╔╝             "
+echo -e "\e[92m             ██║  ██║     ██║███████╗███████╗           "
+echo -e "\e[92m             ╚═╝  ╚═╝     ╚═╝╚══════╝╚══════╝           "
+echo '------------------------------------------------------------ '
+echo ''
+echo '                   Telegram  @harithwyd                      '
+echo '                          AUTOSCRIPT                         '
+echo ''
+echo '                       5 sec remaining                       '
+echo '------------------------------------------------------------ '
+sleep 5
+clear
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -10,6 +29,31 @@ fi
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
+MYIP=$(wget -qO- ipinfo.io/ip);
+IZIN=$( curl https://raw.githubusercontent.com/XC0D3-X/special-ip/main/special-ip | grep $MYIP )
+if [ $MYIP = $IZIN ]; then
+clear
+echo -e "═══════════════════════════════════════════════════════════"
+echo ""
+echo -e "${green}Tahniah! Anda Dibenarkan menggunakan script ini...${NC}"
+echo -e "${NC}   SCRIPT PERCUMA SELAMANYA BY @harithwyd    "
+echo ""
+echo -e "═══════════════════════════════════════════════════════════"
+sleep 4
+clear
+else
+clear
+echo ""
+echo '    ═══════════════════════════════════════════════════════════'
+echo '             You Are Not Allowed To Use This Script!           '
+echo '    ---------------------------------------------------------- '
+echo '                         t.me/harithwyd                        '
+echo '    ═══════════════════════════════════════════════════════════'
+sleep 3
+rm -rf setup.sh
+exit 0
+fi
+clear
 if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
 exit 0
@@ -104,12 +148,12 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Haz"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/Harithwyd"  | tee -a log-install.txt
-echo "   - Instagram               : @hs.harithz"  | tee -a log-install.txt
-echo "   - Whatsapp                : Rahsia sayang"  | tee -a log-install.txt
-echo "   - Facebook                : Rahsia sayang" | tee -a log-install.txt
-echo "------------------Script Created By XC0D3-X-----------------" | tee -a log-install.txt
+echo "   - Dev/Main                : Haz / harithwyd"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/Harithwyd"  | tee -a log-install.txt
+echo "   - Instagram               : ytjt "  | tee -a log-install.txt
+echo "   - Whatsapp                : ytjt "  | tee -a log-install.txt
+echo "   - Facebook                : ytjt " | tee -a log-install.txt
+echo "---------------------Script Created By XC0D3-X--------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
