@@ -9,8 +9,8 @@ chmod +x /usr/local/bin/edussh-nontls
 # Installing Service
 cat > /etc/systemd/system/edussh-nontls.service << END
 [Unit]
-Description=Ssh Websocket By Akhir Zaman
-Documentation=https://xnxx.com
+Description=Ssh Websocket By harithwyd
+Documentation=https://google.com
 After=network.target nss-lookup.target
 
 [Service]
@@ -41,8 +41,8 @@ chmod +x /usr/local/bin/edu-ovpn
 # Installing Service Ovpn Websocket
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Ovpn Websocket By Akhir Zaman
-Documentation=https://xnxx.com
+Description=Ovpn Websocket By harithwyd
+Documentation=https://google.com
 After=network.target nss-lookup.target
 
 [Service]
@@ -69,4 +69,4 @@ echo -e "==============================="
 echo -e "PORT SSH WS NON TLS          : 2082"
 echo -e "PORT OVPN WS B               : 2095"
 echo -e "==============================="
-echo -e "Script By AKHIR ZAMAN"
+echo -e "Script By H4Z"
