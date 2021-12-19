@@ -52,8 +52,10 @@ echo -e  " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 echo -e  " $op ║ \e[032;1mTime:\e[0m$bd $WKT "
 echo -e ""
 echo -e ""
+echo -e "                                                     PERCUMA SELAMANYA" | lolcat
+echo -e "                                                        - By harithwyd"
 echo -e  "  ╔═════════════════════════════════════════════════════════════════╗" | lolcat
-echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" |lolcat
+echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" | lolcat
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  " $bl ║"
 echo -e  " $nc ║      [ 1 ] =>  >>  >>  SSH & OpenVPN" | lolcat
@@ -82,6 +84,7 @@ echo -e  "  ║      [ 18 ] Reboot VPS"
 echo -e  "  ║      [ 19 ] Speedtest VPS"
 echo -e  "  ║      [ 20 ] Displaying System Information"
 echo -e  "  ║      [ 21 ] Info Script"
+echo -e  "  ║      [ 22 ] Update Script"
 echo -e  "  ║"
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╗\e[m" | lolcat
 echo -e  "  ║ [0] Exit Menu                                                   ║\e[m" | lolcat
@@ -152,6 +155,9 @@ echo -e   ""
    ;;
 	 21)
    about
+   ;;
+	 22)
+   update
    ;;
    0)
    exit
