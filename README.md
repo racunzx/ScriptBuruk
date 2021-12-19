@@ -25,9 +25,9 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 
    Script Free Open Source Untuk Semua
 
-   - Dilarang Jual
-   - Sangat dialu2kan untuk yang berminat dan mahu belajar
-   - Tiru kosong dan tidak memberi manfaat diharamkan
+   -sila minta izin dahulu. t.me/harithwyd
+
+
 
 ## Description :
 
