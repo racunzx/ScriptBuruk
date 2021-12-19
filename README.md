@@ -21,6 +21,14 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 
   ```
 
+## Info :
+
+   Script Free Open Source Untuk Semua
+
+   - Dilarang Jual
+   - Sangat dialu2kan untuk yang berminat dan mahu belajar
+   - Tiru kosong dan tidak memberi manfaat diharamkan
+
 ## Description :
 
   Service & Port
