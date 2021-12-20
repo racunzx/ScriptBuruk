@@ -85,7 +85,6 @@ echo -e  "  ║      [ 19 ] ► Speedtest VPS"
 echo -e  "  ║      [ 20 ] ► Displaying System Information"
 echo -e  "  ║      [ 21 ] ► Info Script"
 echo -e  "  ║      [ 22 ] ► Update Script"
-echo -e  "  ║      [ 23 ] ► Change Password"
 echo -e  "  ║"
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╗\e[m" | lolcat
 echo -e  "  ║ [0] Exit Menu                                                   ║\e[m" | lolcat
@@ -159,9 +158,6 @@ echo -e   ""
    ;;
 	 22)
    update
-   ;;
-	 23)
-   passwd
    ;;
    0)
    exit
