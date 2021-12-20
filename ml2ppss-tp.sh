@@ -10,11 +10,11 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		exit 1
 fi
 clear
-
+echo -e " ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" |lolcat
 echo -e ""
-echo -e " ╔════════════════════════════════════════════════╗" | lolcat
-echo -e " ║              PANEL L2TP/PPTP/SSTP              ║" | lolcat
-echo -e " ╠════════════════════════════════════════════════╝" | lolcat
+echo -e " ╔════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║               PANEL L2TP/PPTP/SSTP              ║" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e " ║" | lolcat
 echo -e " ║  [ 1 ]  Create L2TP Account"
 echo -e " ║  [ 2 ]  Create PPTP Account"
@@ -26,9 +26,9 @@ echo -e " ║  [ 7 ]  Renew L2TP Account"
 echo -e " ║  [ 8 ]  Renew PPTP Account"
 echo -e " ║  [ 9 ]  Renew SSTP Account"
 echo -e " ║" | lolcat
-echo -e " ╠════════════════════════════════════════════════╗" | lolcat
-echo -e " ║ - CTRL C to cancel                             ║"   | lolcat
-echo -e " ╚════════════════════════════════════════════════╝" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║  - CTRL C to cancel                             ║"  | lolcat
+echo -e " ╚════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e ""
 read -p "     Please Input Number  :  "  ml2ppsstp
 echo -e ""
