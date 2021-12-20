@@ -52,8 +52,8 @@ echo -e  " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 echo -e  " $op ║ \e[032;1mTime:\e[0m$bd $WKT "
 echo -e ""
 echo -e ""
-echo -e "                                                     PERCUMA SELAMANYA" | lolcat
-echo -e "                                                        - By harithwyd"
+echo -e "                                                    PERCUMA SELAMANYA" | lolcat
+echo -e "                                                       - By harithwyd"
 echo -e  "  ╔═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" | lolcat
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat

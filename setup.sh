@@ -2,7 +2,7 @@
 echo ''
 clear
 echo ''
-echo '------------------------------------------------------------ '
+echo '═══════════════════════════════════════════════════════════ '
 echo -e "\e[92m             ██╗  ██╗██╗  ██╗███████╗███████╗           "
 echo -e "\e[92m             ██║  ██║██║  ██║╚══███╔╝╚══███╔╝           "
 echo -e "\e[92m             ███████║███████║  ███╔╝   ███╔╝            "
@@ -11,11 +11,11 @@ echo -e "\e[92m             ██║  ██║     ██║██████
 echo -e "\e[92m             ╚═╝  ╚═╝     ╚═╝╚══════╝╚══════╝           "
 echo '------------------------------------------------------------ '
 echo ''
-echo '                   Telegram  @harithwyd                      '
+echo '                   Telegram: @harithwyd                      '
 echo '                          AUTOSCRIPT                         '
 echo ''
-echo '                       5 sec remaining                       '
-echo '------------------------------------------------------------ '
+echo '║                       5 sec remaining                     ║ '
+echo '╚═══════════════════════════════════════════════════════════╝ '
 sleep 5
 clear
 if [ "${EUID}" -ne 0 ]; then
@@ -33,21 +33,21 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/XC0D3-X/special-ip/main/special-ip | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
-echo -e "═══════════════════════════════════════════════════════════"
+echo -e "═══════════════════════════════════════════════════════════" | lolcat
 echo ""
 echo -e "${green}Tahniah! Anda Dibenarkan menggunakan script ini...${NC}"
 echo -e "${NC}   SCRIPT PERCUMA SELAMANYA BY @harithwyd    "
 echo ""
-echo -e "═══════════════════════════════════════════════════════════"
+echo -e "═══════════════════════════════════════════════════════════" | lolcat
 sleep 4
 else
 clear
 echo ""
-echo '    ═══════════════════════════════════════════════════════════'
-echo '             You Are Not Allowed To Use This Script!           '
-echo '    ---------------------------------------------------------- '
-echo '                         t.me/harithwyd                        '
-echo '    ═══════════════════════════════════════════════════════════'
+echo -e  "  ═══════════════════════════════════════════════════════════  " | lolcat
+echo -e  "           You Are Not Allowed To Use This Script!           ║ "
+echo -e  "  ---------------------------------------------------------- ║ "
+echo -e  "                       t.me/harithwyd                        ║ "
+echo -e  "  ═══════════════════════════════════════════════════════════  " | lolcat
 sleep 4
 rm -rf setup.sh
 exit 0

@@ -50,4 +50,5 @@ Username     : $VPN_USER
 Password     : $VPN_PASSWORD
 Expired ON   : $exp
 =================================
+SCRIPT BY H4Z
 EOF
