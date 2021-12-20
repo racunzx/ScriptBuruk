@@ -40,7 +40,11 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	swap=$( free -m | awk 'NR==4 {print $2}' )
 	up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
 
-
+Banner= "$nama"
+source /usr/bin/banner.conf
+echo -e ""
+figlet "$Banner" | lolcat
+echo -e ""
 echo -e  " $bl ║ \e[032;1mCPU Model:\e[0m$bd $cname  "
 echo -e  " $bl ║ \e[032;1mNumber Of Cores:\e[0m$bd $cores"
 echo -e  " $bl ║ \e[032;1mCPU Frequency:\e[0m$bd $freq MHz"
@@ -52,7 +56,7 @@ echo -e  " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 echo -e  " $op ║ \e[032;1mTime:\e[0m$bd $WKT "
 echo -e ""
 echo -e ""
-echo -e "                                                    PERCUMA SELAMANYA" | lolcat
+echo -e "                                                    SCRIPT SELAMANYA" | lolcat
 echo -e "                                                       - By harithwyd"
 echo -e  "  ╔═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" | lolcat
@@ -85,6 +89,7 @@ echo -e  "  ║      [ 19 ] Speedtest VPS"
 echo -e  "  ║      [ 20 ] Displaying System Information"
 echo -e  "  ║      [ 21 ] Info Script"
 echo -e  "  ║      [ 22 ] Update Script"
+echo -e  "  ║      [ 23 ] Change Banner"
 echo -e  "  ║"
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╗\e[m" | lolcat
 echo -e  "  ║ [0] Exit Menu                                                   ║\e[m" | lolcat
@@ -158,6 +163,9 @@ echo -e   ""
    ;;
 	 22)
    update
+   ;;
+	 23)
+   banner
    ;;
    0)
    exit
