@@ -10,24 +10,24 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		exit 1
 fi
 clear
-
+echo -e " ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" |lolcat
 echo -e ""
-echo -e " ╔═════════════════════════════════════════╗" | lolcat
-echo -e " ║     ShadowsocksR & Shadowsocks OBFS     ║" | lolcat
-echo -e " ╠═════════════════════════════════════════╝" | lolcat
+echo -e " ╔════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║        ShadowsocksR & Shadowsocks OBFS          ║" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e " ║" | lolcat
-echo -e " ║  [ 1 ]  Create SSR Account"
-echo -e " ║  [ 2 ]  Delete SSR Account"
-echo -e " ║  [ 3 ]  Extend SSR Account Active Life"
-echo -e " ║  [ 4 ]  Show Other SSR Menu"
-echo -e " ║  [ 5 ]  Create Shadowsocks Account"
-echo -e " ║  [ 6 ]  Delete Shadowsocks Account"
-echo -e " ║  [ 7 ]  Extend Shadowsocks Account"
-echo -e " ║  [ 8 ]  Check User Login Shadowsocks"
+echo -e " ║  [ 1 ] > Create SSR Account"
+echo -e " ║  [ 2 ] > Delete SSR Account"
+echo -e " ║  [ 3 ] > Extend SSR Account Active Life"
+echo -e " ║  [ 4 ] > Show Other SSR Menu"
+echo -e " ║  [ 5 ] > Create Shadowsocks Account"
+echo -e " ║  [ 6 ] > Delete Shadowsocks Account"
+echo -e " ║  [ 7 ] > Extend Shadowsocks Account"
+echo -e " ║  [ 8 ] > Check User Login Shadowsocks"
 echo -e " ║" | lolcat
-echo -e " ╠═════════════════════════════════════════╗" | lolcat
-echo -e " ║ - CTRL C to cancel                      ║"   | lolcat
-echo -e " ╚═════════════════════════════════════════╝" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║ - CTRL C to cancel                              ║" | lolcat
+echo -e " ╚════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e ""
 read -p "     Please Input Number  :  "  ssr
 echo -e ""
