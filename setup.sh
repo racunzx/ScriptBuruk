@@ -36,7 +36,7 @@ clear
 echo -e  "═══════════════════════════════════════════════════════════"
 echo ""
 echo -e  "${green}Tahniah! Anda Dibenarkan menggunakan script ini...${NC}"
-echo -e  "${NC}   SCRIPT PERCUMA SELAMANYA BY @harithwyd    "
+echo -e  "${NC}       Premium Script By @harithwyd    "
 echo ""
 echo -e  "═══════════════════════════════════════════════════════════"
 sleep 4
