@@ -33,22 +33,21 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/XC0D3-X/special-ip/main/special-ip | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
-echo -e "═══════════════════════════════════════════════════════════" | lolcat
+echo -e  "═══════════════════════════════════════════════════════════"
 echo ""
-echo -e "${green}Tahniah! Anda Dibenarkan menggunakan script ini...${NC}"
-echo -e "${NC}   SCRIPT PERCUMA SELAMANYA BY @harithwyd    "
+echo -e  "${green}Tahniah! Anda Dibenarkan menggunakan script ini...${NC}"
+echo -e  "${NC}   SCRIPT PERCUMA SELAMANYA BY @harithwyd    "
 echo ""
-echo -e "═══════════════════════════════════════════════════════════" | lolcat
+echo -e  "═══════════════════════════════════════════════════════════"
 sleep 4
 else
 clear
 echo ""
-echo -e  "  ═══════════════════════════════════════════════════════════  " | lolcat
+echo -e  "  ═══════════════════════════════════════════════════════════  "
 echo -e  "           You Are Not Allowed To Use This Script!           ║ "
 echo -e  "  ---------------------------------------------------------- ║ "
 echo -e  "                       t.me/harithwyd                        ║ "
-echo -e  "  ═══════════════════════════════════════════════════════════  " | lolcat
-sleep 4
+echo -e  "  ═══════════════════════════════════════════════════════════  "
 rm -rf setup.sh
 exit 0
 fi
