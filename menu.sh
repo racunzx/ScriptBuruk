@@ -51,13 +51,13 @@ echo -e  " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 echo -e  " $op ║ \e[032;1mTime:\e[0m$bd $WKT "
 echo -e ""
 echo -e ""
-echo -e  " $nc                              ﷽                         "
+echo -e  " $nc                      بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ                     "
 echo -e  "  ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ " |lolcat
 echo -e "                                                      SCRIPT PREMIUM" | lolcat
 echo -e "                                                      - By harithwyd"
-echo -e  "  ╔════◈◈◈◈◈◈◈◈═════════════════════════════════════════════════╗" | lolcat
+echo -e  "  ╔═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" | lolcat
-echo -e  "  ╠═════════════════════════════════════════════════◈◈◈◈◈◈◈◈════╝" | lolcat
+echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  " $bl ║"
 echo -e  " $nc ║      [ 1 ] ►  >> >>  SSH & OpenVPN" | lolcat
 echo -e  " $nc ║      [ 2 ] ►  >> >>  Panel Wireguard" | lolcat
