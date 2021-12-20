@@ -275,6 +275,7 @@ wget -O cfd "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/cfh.sh"
 wget -O kernel-updt "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/kernel-update.sh"
+wget -O passwd "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/passwd.sh"
 chmod +x menu
 chmod +x add-host
 chmod +x usernew
@@ -310,6 +311,7 @@ chmod +x cfd
 chmod +x cff
 chmod +x cfh
 chmod +x kernel-updt
+chmod +x passwd
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
