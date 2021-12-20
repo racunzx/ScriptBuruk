@@ -36,6 +36,7 @@ wget -O add-sstp "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add
 wget -O add-ws "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-ws.sh"
 wget -O add-vless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-vless.sh"
 wget -O add-tr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-tr.sh"
+wget -O banner "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/banner.sh"
 chmod +x change
 chmod +x port-ovpn
 chmod +x port-ssl
@@ -48,6 +49,7 @@ chmod +x port-vless
 chmod +x wbmn
 chmod +x xp
 chmod +x limit-speed
+chmod +x banner
 echo "0 5 * * * root clear-log && reboot" > /etc/crontab
 echo "0 0 * * * root xp" > /etc/crontab
 cd
