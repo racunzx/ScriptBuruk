@@ -27,7 +27,7 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 
    - sila minta izin dahulu. t.me/harithwyd
 
-<img src="https://i.pinimg.com/originals/e8/be/b8/e8beb87e8391236b8d4a7598ccf4bb93.jpg">
+<img src="https://i.pinimg.com/originals/09/c4/16/09c416da452fa9d7914d5b743069c252.jpg">
 
 
 
