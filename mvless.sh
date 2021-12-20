@@ -12,19 +12,20 @@ fi
 clear
 
 echo -e ""
+echo -e  " ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" |lolcat
 echo ""
-echo -e " ╔═════════════════════════════════════════════╗" | lolcat
-echo -e " ║                    VLESS                    ║"   | lolcat
-echo -e " ╠═════════════════════════════════════════════╝" | lolcat
+echo -e " ╔════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║                      VLESS                      ║" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e " ║" | lolcat
-echo -e " ║  [ 1 ] Create Vless Account"
-echo -e " ║  [ 2 ] Delete Vless Account"
-echo -e " ║  [ 3 ] Extending Vless Account Active Life"
-echo -e " ║  [ 4 ] Check User Login V2RAY"
+echo -e " ║  [ 1 ] > Create Vless Account"
+echo -e " ║  [ 2 ] > Delete Vless Account"
+echo -e " ║  [ 3 ] > Extending Vless Account Active Life"
+echo -e " ║  [ 4 ] > Check User Login V2RAY"
 echo -e " ║" | lolcat
-echo -e " ╠═════════════════════════════════════════════╗" | lolcat
-echo -e " ║ - CTRL C to cancel                          ║" | lolcat
-echo -e " ╚═════════════════════════════════════════════╝" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║ - CTRL C to cancel                              ║" | lolcat
+echo -e " ╚════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e ""
 read -p "     Please select an option :  "  vless
 echo -e ""
