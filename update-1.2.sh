@@ -36,7 +36,13 @@ wget -O add-sstp "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add
 wget -O add-ws "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-ws.sh"
 wget -O add-vless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-vless.sh"
 wget -O add-tr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/add-tr.sh"
-wget -O banner "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/banner.sh"
+wget -O ml2ppss-tp "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/ml2ppss-tp.sh"
+wget -O mss-ssr "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mss-ssr.sh"
+wget -O mssh "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mssh.sh"
+wget -O mtrojan "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mtrojan.sh"
+wget -O mvless "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mvless.sh"
+wget -O mvmess "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mvmess.sh"
+wget -O mwg "https://raw.githubusercontent.com/XC0D3-X/ScriptBuruk/main/mwg.sh"
 chmod +x change
 chmod +x port-ovpn
 chmod +x port-ssl
@@ -49,13 +55,19 @@ chmod +x port-vless
 chmod +x wbmn
 chmod +x xp
 chmod +x limit-speed
-chmod +x banner
+chmod +x ml2ppss-tp
+chmod +x mss-ssr
+chmod +x mssh
+chmod +x mtrojan
+chmod +x mvless
+chmod +x mvmess
+chmod +x mwg
 echo "0 5 * * * root clear-log && reboot" > /etc/crontab
 echo "0 0 * * * root xp" > /etc/crontab
 cd
 echo "1.2" > /home/ver
 clear
-echo " Fix minor Bugs"
+echo " Fix minor Bugs & Update"
 echo " Now You Can Change Port Of Some Services"
 echo " Reboot 5 Sec"
 sleep 5
