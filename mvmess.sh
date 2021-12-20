@@ -10,20 +10,21 @@ if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		exit 1
 fi
 clear
+echo -e " ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" |lolcat
 echo ""
-echo -e " ╔═════════════════════════════════════════════╗" | lolcat
-echo -e " ║                     VMESS                   ║" | lolcat
-echo -e " ╠═════════════════════════════════════════════╝" | lolcat
+echo -e " ╔════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║                      VMESS                      ║" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e " ║" | lolcat
-echo -e " ║  [ 1 ] Create Vmess Websocket Account"
-echo -e " ║  [ 2 ] Delete Vmess Websocket Account"
-echo -e " ║  [ 3 ] Renew Vmess Account"
-echo -e " ║  [ 4 ] Check User Login Vmess"
-echo -e " ║  [ 5 ] Check User Login Vmess"
+echo -e " ║  [ 1 ] > Create Vmess Websocket Account"
+echo -e " ║  [ 2 ] > Delete Vmess Websocket Account"
+echo -e " ║  [ 3 ] > Renew Vmess Account"
+echo -e " ║  [ 4 ] > Check User Login Vmess"
+echo -e " ║  [ 5 ] > Check User Login Vmess"
 echo -e " ║" | lolcat
-echo -e " ╠═════════════════════════════════════════════╗" | lolcat
-echo -e " ║ - CTRL C to cancel                          ║" | lolcat
-echo -e " ╚═════════════════════════════════════════════╝" | lolcat
+echo -e " ╠════════━━━━━━━━━────── • ──────━━━━━━━━━════════╗" | lolcat
+echo -e " ║ - CTRL C to cancel                              ║" | lolcat
+echo -e " ╚════════━━━━━━━━━────── • ──────━━━━━━━━━════════╝" | lolcat
 echo -e "\e[1;31m"
 read -p "    Please select an option :  "  v2ray
 echo -e "\e[0m"
