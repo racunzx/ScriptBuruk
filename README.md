@@ -25,7 +25,9 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 
    Script Free Open Source Untuk Semua
 
-   -sila minta izin dahulu. t.me/harithwyd
+   - sila minta izin dahulu. t.me/harithwyd
+
+<img src="https://drive.google.com/file/d/1257FyACsih59tw5OcxU3RoGpJ2OwkdZ-/view?usp=sharing">
 
 
 
