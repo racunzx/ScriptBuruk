@@ -39,11 +39,6 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	tram=$( free -m | awk 'NR==2 {print $2}' )
 	swap=$( free -m | awk 'NR==4 {print $2}' )
 	up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
-
-Banner= "$nama"
-source /usr/bin/banner.conf
-echo -e ""
-figlet "$Banner" | lolcat
 echo -e ""
 echo -e  " $bl ║ \e[032;1mCPU Model:\e[0m$bd $cname  "
 echo -e  " $bl ║ \e[032;1mNumber Of Cores:\e[0m$bd $cores"
@@ -56,40 +51,40 @@ echo -e  " $op ║ \e[032;1mCity:\e[0m$bd $CITY"
 echo -e  " $op ║ \e[032;1mTime:\e[0m$bd $WKT "
 echo -e ""
 echo -e ""
+echo -e  " ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰" |lolcat
 echo -e "                                                    SCRIPT SELAMANYA" | lolcat
-echo -e "                                                       - By harithwyd"
+echo -e "                                                      - By harithwyd"
 echo -e  "  ╔═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SCRIPT MENU ┃                        ║" | lolcat
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  " $bl ║"
-echo -e  " $nc ║      [ 1 ] =>  >>  >>  SSH & OpenVPN" | lolcat
-echo -e  " $nc ║      [ 2 ] =>  >>  >>  Panel Wireguard" | lolcat
-echo -e  " $nc ║      [ 3 ] =>  >>  >>  Panel L2TP, PPTP & SSTP" | lolcat
-echo -e  " $nc ║      [ 4 ] =>  >>  >>  Panel SSR & SS" | lolcat
-echo -e  " $nc ║      [ 5 ] =>  >>  >>  Panel VMESS" | lolcat
-echo -e  " $nc ║      [ 6 ] =>  >>  >>  Panel VLESS" | lolcat
-echo -e  " $nc ║      [ 7 ] =>  >>  >>  Panel Trojan" | lolcat
+echo -e  " $nc ║      [ 1 ] ►  ⋙  >>  SSH & OpenVPN" | lolcat
+echo -e  " $nc ║      [ 2 ] ►  ⋙  >>  Panel Wireguard" | lolcat
+echo -e  " $nc ║      [ 3 ] ►  ⋙  >>  Panel L2TP, PPTP & SSTP" | lolcat
+echo -e  " $nc ║      [ 4 ] ►  ⋙  >>  Panel SSR & SS" | lolcat
+echo -e  " $nc ║      [ 5 ] ►  ⋙  >>  Panel VMESS" | lolcat
+echo -e  " $nc ║      [ 6 ] ►  ⋙  >>  Panel VLESS" | lolcat
+echo -e  " $nc ║      [ 7 ] ►  ⋙  >>  Panel Trojan" | lolcat
 echo -e  " $bl ║ "
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╗" | lolcat
 echo -e  "  ║                          ┃ SYSTEM MENU ┃                        ║" | lolcat
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╝" | lolcat
 echo -e  "  ║"
-echo -e  "  ║      [ 8 ] Add/Change Subdomain Host For VPS"
-echo -e  "  ║      [ 9 ] Add ID Cloudflare"
-echo -e  "  ║      [ 10 ] Cloudflare Add-Ons"
-echo -e  "  ║      [ 11 ] Pointing BUG"
-echo -e  "  ║      [ 12 ] Change Port Of Some Service"
-echo -e  "  ║      [ 13 ] Autobackup Data VPS"
-echo -e  "  ║      [ 14 ] Backup Data VPS"
-echo -e  "  ║      [ 15 ] Restore Data VPS"
-echo -e  "  ║      [ 16 ] Webmin Menu"
-echo -e  "  ║      [ 17 ] Check Usage of VPS Ram"
-echo -e  "  ║      [ 18 ] Reboot VPS"
-echo -e  "  ║      [ 19 ] Speedtest VPS"
-echo -e  "  ║      [ 20 ] Displaying System Information"
-echo -e  "  ║      [ 21 ] Info Script"
-echo -e  "  ║      [ 22 ] Update Script"
-echo -e  "  ║      [ 23 ] Change Banner"
+echo -e  "  ║      [ 8 ] ► Add/Change Subdomain Host For VPS"
+echo -e  "  ║      [ 9 ] ► Add ID Cloudflare"
+echo -e  "  ║      [ 10 ] ► Cloudflare Add-Ons"
+echo -e  "  ║      [ 11 ] ► Pointing BUG"
+echo -e  "  ║      [ 12 ] ► Change Port Of Some Service"
+echo -e  "  ║      [ 13 ] ► Autobackup Data VPS"
+echo -e  "  ║      [ 14 ] ► Backup Data VPS"
+echo -e  "  ║      [ 15 ] ► Restore Data VPS"
+echo -e  "  ║      [ 16 ] ► Webmin Menu"
+echo -e  "  ║      [ 17 ] ► Check Usage of VPS Ram"
+echo -e  "  ║      [ 18 ] ► Reboot VPS"
+echo -e  "  ║      [ 19 ] ► Speedtest VPS"
+echo -e  "  ║      [ 20 ] ► Displaying System Information"
+echo -e  "  ║      [ 21 ] ► Info Script"
+echo -e  "  ║      [ 22 ] ► Update Script"
 echo -e  "  ║"
 echo -e  "  ╠═════════════════════════════════════════════════════════════════╗\e[m" | lolcat
 echo -e  "  ║ [0] Exit Menu                                                   ║\e[m" | lolcat
@@ -163,9 +158,6 @@ echo -e   ""
    ;;
 	 22)
    update
-   ;;
-	 23)
-   banner
    ;;
    0)
    exit
